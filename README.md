@@ -44,6 +44,9 @@ Requirements
                 Qt Widgets
                 Qt Multimedia
                 Qt MultimediaWidgets
+
+<img width="1909" height="975" alt="image" src="https://github.com/user-attachments/assets/3805af54-344c-4142-8f0f-164f0aa9ab08" />
+
         
 
      

@@ -47,6 +47,8 @@ Requirements
 
 <img width="1909" height="975" alt="image" src="https://github.com/user-attachments/assets/3805af54-344c-4142-8f0f-164f0aa9ab08" />
 
+Aspect Ratio - Maintains proper video aspect ratio
+Time Display - Shows current position and total duration (MM:SS format)
         
 
      

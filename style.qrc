@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/MediaPlaylist"/>
+    <qresource prefix="/">
+        <file>style</file>
+    </qresource>
+</RCC>

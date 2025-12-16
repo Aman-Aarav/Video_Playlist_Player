@@ -1,0 +1,195 @@
+/* Main Widget Background */
+QWidget {
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 13px;
+}
+
+/* Video Widget */
+QVideoWidget {
+    background-color: #000000;
+    border: 2px solid #313244;
+    border-radius: 8px;
+}
+
+/* Push Buttons */
+QPushButton {
+    background-color: #45475a;
+    color: #cdd6f4;
+    border: 2px solid #585b70;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 13px;
+    min-height: 35px;
+}
+
+QPushButton:hover {
+    background-color: #585b70;
+    border-color: #89b4fa;
+}
+
+QPushButton:pressed {
+    background-color: #313244;
+    border-color: #89b4fa;
+}
+
+QPushButton:disabled {
+    background-color: #2a2a3a;
+    color: #6c7086;
+    border-color: #313244;
+}
+
+/* Specific Button Styles */
+QPushButton#btnPlay {
+    background-color: #89b4fa;
+    color: #1e1e2e;
+    border-color: #89b4fa;
+}
+
+QPushButton#btnPlay:hover {
+    background-color: #a6c9ff;
+}
+
+QPushButton#btnPlay:pressed {
+    background-color: #6c9edf;
+}
+
+QPushButton#btnAdd {
+    background-color: #a6e3a1;
+    color: #1e1e2e;
+    border-color: #a6e3a1;
+}
+
+QPushButton#btnAdd:hover {
+    background-color: #b8f0b5;
+}
+
+QPushButton#btnAdd:pressed {
+    background-color: #8dd88a;
+}
+
+QPushButton#btnShuffle {
+    background-color: #f9e2af;
+    color: #1e1e2e;
+    border-color: #f9e2af;
+}
+
+QPushButton#btnShuffle:hover {
+    background-color: #fcefc7;
+}
+
+QPushButton#btnShuffle:pressed {
+    background-color: #e0ca96;
+}
+
+/* Playlist Widget */
+QListWidget {
+    background-color: #181825;
+    border: 2px solid #313244;
+    border-radius: 6px;
+    padding: 5px;
+    outline: none;
+}
+
+QListWidget::item {
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin: 2px 0px;
+}
+
+QListWidget::item:hover {
+    background-color: #313244;
+}
+
+QListWidget::item:selected {
+    background-color: #89b4fa;
+    color: #1e1e2e;
+    font-weight: bold;
+}
+
+/* Scrollbar */
+QScrollBar:vertical {
+    background-color: #181825;
+    width: 12px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #45475a;
+    border-radius: 6px;
+    min-height: 20px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background-color: #585b70;
+}
+
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+QScrollBar::add-page:vertical,
+QScrollBar::sub-page:vertical {
+    background: none;
+}
+/* Horizontal Slider - General */
+QSlider::groove:horizontal {
+    background-color: #404040;
+    height: 6px;
+    border-radius: 3px;
+}
+
+QSlider::handle:horizontal {
+    background-color: #3c46fc;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    margin: -5px 0;
+    border: 2px solid #0d7377;
+}
+
+QSlider::handle:horizontal:hover {
+    background-color: #0e8a8f;
+    border: 2px solid #0e8a8f;
+}
+
+QSlider::handle:horizontal:pressed {
+    background-color: #0a5c5f;
+    border: 2px solid #0a5c5f;
+}
+
+QSlider::sub-page:horizontal {
+    background-color: #0d7377;
+    border-radius: 3px;
+}
+
+QSlider::add-page:horizontal {
+    background-color: #404040;
+    border-radius: 3px;
+}
+
+/* Volume Slider - Thinner Style */
+QSlider#volumeSlider::groove:horizontal {
+    background-color: #404040;
+    height: 4px;
+    border-radius: 2px;
+}
+
+QSlider#volumeSlider::handle:horizontal {
+    background-color: #0d7377;
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    margin: -5px 0;
+    border: 2px solid #0d7377;
+}
+
+QSlider#volumeSlider::sub-page:horizontal {
+    background-color: #0d7377;
+    border-radius: 2px;
+}
